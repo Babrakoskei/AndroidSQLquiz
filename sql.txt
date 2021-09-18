@@ -1,0 +1,34 @@
+Question 1: Write a query to obtain all the records from the above table
+     SELECT * FROM STUDENTS
+
+Question 2: Write a query to obtain the names and marks of all the students
+     SELECT NAMES,MARKS FROM STUDENTS;
+
+Question 3: Write a query to return all the unique towns from the table
+     SELECT DISTINCT TOWNS FROM STUDENTS;
+
+
+Question 4: Write a query to obtain all the names of the students from ruiru
+     SELECT * FROM STUDENTS WHERE TOWN="Ruiru";
+
+Question 5:
+     SELECT * FROM STUDENTS WHERE MARKS >85;
+
+Question 6:
+    SELECT * FROM STUDENTS ORDER BY marks ;
+
+Question 7:
+    SELECT * FROM STUDENTS WHERE TOWN="Lodwar" AND marks > 80;
+
+Question 8:
+    SELECT * FROM STUDENTS WHERE marks>70 AND NOT town="Nairobi";
+
+Question 9:
+    SELECT  * FROM STUDENTS ORDER BY names ;
+
+Question 10:
+    SELECT * FROM STUDENTS WHERE town NOT='Nairobi' AND MARKS >80;
+
+
+
+
